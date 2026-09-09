@@ -1,74 +1,82 @@
-
-https://www.web-leb.com/code
-
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <title>Webleb</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Interface de estudo para login e cadastro com animação de cartão 3D.">
+  <title>Login UI | Projeto de estudo</title>
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-	<div class="section">
-		<div class="container">
-			<div class="row full-height justify-content-center">
-				<div class="col-12 text-center align-self-center py-5">
-					<div class="section pb-5 pt-5 pt-sm-2 text-center">
-						<h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
-			          	<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
-			          	<label for="reg-log"></label>
-						<div class="card-3d-wrap mx-auto">
-							<div class="card-3d-wrapper">
-								<div class="card-front">
-									<div class="center-wrap">
-										<div class="section text-center">
-											<h4 class="mb-4 pb-3">Log In</h4>
-											<div class="form-group">
-												<input type="email" class="form-style" placeholder="Email">
-												<i class="input-icon uil uil-at"></i>
-											</div>	
-											<div class="form-group mt-2">
-												<input type="password" class="form-style" placeholder="Password">
-												<i class="input-icon uil uil-lock-alt"></i>
-											</div>
-											<a href="https://www.web-leb.com/code" class="btn mt-4">Login</a>
-                      <p class="mb-0 mt-4 text-center"><a href="https://www.web-leb.com/code" class="link">Forgot your password?</a></p>
-				      					</div>
-			      					</div>
-			      				</div>
-								<div class="card-back">
-									<div class="center-wrap">
-										<div class="section text-center">
-											<h4 class="mb-3 pb-3">Sign Up</h4>
-											<div class="form-group">
-												<input type="text" class="form-style" placeholder="Full Name">
-												<i class="input-icon uil uil-user"></i>
-											</div>	
-											<div class="form-group mt-2">
-												<input type="tel" class="form-style" placeholder="Phone Number">
-												<i class="input-icon uil uil-phone"></i>
-											</div>	
+  <main class="section">
+    <div class="container">
+      <div class="row full-height justify-content-center">
+        <div class="col-12 text-center align-self-center py-5">
+          <div class="section pb-5 pt-5 pt-sm-2 text-center">
+            <h6 class="mb-0 pb-3"><span>Entrar</span><span>Cadastrar</span></h6>
+            <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" aria-label="Alternar entre login e cadastro">
+            <label for="reg-log"></label>
+
+            <div class="card-3d-wrap mx-auto">
+              <div class="card-3d-wrapper">
+                <section class="card-front" aria-labelledby="login-title">
+                  <div class="center-wrap">
+                    <div class="section text-center">
+                      <h1 id="login-title" class="h4 mb-4 pb-3">Entrar</h1>
+                      <div class="form-group">
+                        <label class="sr-only" for="login-email">E-mail</label>
+                        <input id="login-email" type="email" class="form-style" placeholder="E-mail" autocomplete="email">
+                        <i class="input-icon uil uil-at" aria-hidden="true"></i>
+                      </div>
                       <div class="form-group mt-2">
-												<input type="email" class="form-style" placeholder="Email">
-												<i class="input-icon uil uil-at"></i>
-											</div>
-											<div class="form-group mt-2">
-												<input type="password" class="form-style" placeholder="Password">
-												<i class="input-icon uil uil-lock-alt"></i>
-											</div>
-											<a href="https://www.web-leb.com/code" class="btn mt-4">Register</a>
-				      					</div>
-			      					</div>
-			      				</div>
-			      			</div>
-			      		</div>
-			      	</div>
-		      	</div>
-	      	</div>
-	    </div>
-	</div>
+                        <label class="sr-only" for="login-password">Senha</label>
+                        <input id="login-password" type="password" class="form-style" placeholder="Senha" autocomplete="current-password">
+                        <i class="input-icon uil uil-lock-alt" aria-hidden="true"></i>
+                      </div>
+                      <button type="button" class="btn mt-4">Entrar</button>
+                      <p class="mb-0 mt-4 text-center"><button type="button" class="link btn-link p-0 border-0 bg-transparent">Esqueci minha senha</button></p>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="card-back" aria-labelledby="signup-title">
+                  <div class="center-wrap">
+                    <div class="section text-center">
+                      <h2 id="signup-title" class="h4 mb-3 pb-3">Criar conta</h2>
+                      <div class="form-group">
+                        <label class="sr-only" for="signup-name">Nome completo</label>
+                        <input id="signup-name" type="text" class="form-style" placeholder="Nome completo" autocomplete="name">
+                        <i class="input-icon uil uil-user" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-group mt-2">
+                        <label class="sr-only" for="signup-phone">Telefone</label>
+                        <input id="signup-phone" type="tel" class="form-style" placeholder="Telefone" autocomplete="tel">
+                        <i class="input-icon uil uil-phone" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-group mt-2">
+                        <label class="sr-only" for="signup-email">E-mail</label>
+                        <input id="signup-email" type="email" class="form-style" placeholder="E-mail" autocomplete="email">
+                        <i class="input-icon uil uil-at" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-group mt-2">
+                        <label class="sr-only" for="signup-password">Senha</label>
+                        <input id="signup-password" type="password" class="form-style" placeholder="Senha" autocomplete="new-password">
+                        <i class="input-icon uil uil-lock-alt" aria-hidden="true"></i>
+                      </div>
+                      <button type="button" class="btn mt-4">Cadastrar</button>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <p class="mt-4 mb-0 small text-muted">Projeto de estudo. Não há autenticação, banco de dados ou cadastro real.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

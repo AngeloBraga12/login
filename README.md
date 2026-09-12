@@ -1,8 +1,8 @@
 # Login UI
 
-Projeto de estudo de interface para telas de **Login** e **Cadastro**, desenvolvido para praticar composição visual, formulários e animações com CSS.
+Projeto de estudo focado na construção de interfaces de Login e Cadastro, com ênfase em composição visual, formulários, responsividade e animações CSS.
 
-## Tecnologias
+## Stack
 
 - HTML5
 - CSS3
@@ -10,9 +10,17 @@ Projeto de estudo de interface para telas de **Login** e **Cadastro**, desenvolv
 - Bootstrap 4
 - Unicons
 
-## Sobre o projeto
+## Funcionalidades
 
-A interface apresenta um cartão com efeito 3D que alterna entre os estados de Login e Cadastro. O projeto tem finalidade educacional e não implementa autenticação real, banco de dados ou gerenciamento de usuários.
+- Alternância visual entre Login e Cadastro.
+- Cartão com efeito 3D.
+- Formulários estruturados.
+- Interações no navegador.
+- Layout responsivo.
+
+## Limites do projeto
+
+Este é um projeto de interface. Não implementa autenticação real, banco de dados, sessão ou gerenciamento de usuários.
 
 ## Estrutura
 
@@ -26,16 +34,15 @@ A interface apresenta um cartão com efeito 3D que alterna entre os estados de L
 └── README.md
 ```
 
-## Objetivo
+## Papel no portfólio
 
-Exercitar fundamentos de desenvolvimento Front-end, especialmente estrutura HTML, estilização CSS, componentes de formulário e interação no navegador.
-
-## Status
-
-Projeto de estudo.
+Projeto introdutório que demonstra fundamentos de HTML, CSS e JavaScript e serve como registro da evolução anterior aos projetos React/TypeScript.
 
 ## Autor
 
-**Angelo Braga**
+**Angelo Braga**  
+Técnico em Informática · Desenvolvimento Web / Front-end
 
-GitHub: https://github.com/AngeloBraga12
+- GitHub: https://github.com/AngeloBraga12
+- Portfólio: https://portifolio-angelobraga.netlify.app/
+- LinkedIn: https://www.linkedin.com/in/angelo-braga-5747b4192/
